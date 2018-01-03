@@ -60,7 +60,7 @@ contract Market {
         }
     }
 
-// Send an Bid to this and:
+// Send a Bid to this and:
 // 1. If there is nothing left to fill it, a new unfilled is created.
 // 2. If it is bigger than the thing it is filling, it moves to the next order to be filled.
 // 3. If the order to be filled is larger than it, it just fills completely and the order to be filled has x less contracts.
